@@ -111,11 +111,12 @@
 .div11{
 	border: 5px;
 	border-radius: 20px 20px;
+	box-shadow: 0px 0px 10px grey;
 	background: linear-gradient(90deg, lightblue, rgb(47, 113, 255));
-	padding: 10px;
+	padding: 20px 0px 20px 0px;
 	margin: 0px;
-	line-height: 20px;
-	text-align: justify;
+	line-height: 30px;
+	text-align: center;
 }
 
 .div12{
@@ -124,6 +125,8 @@
 }
 
 .div13{
+	border: 5px;
+	border-radius:20px;
 	align-items: center;
 	padding: 10px;
 	margin: 0px;
