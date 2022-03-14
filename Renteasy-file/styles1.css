@@ -1,0 +1,287 @@
+@charset "UTF-8";
+.main {
+	background-image: url("./img/city.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: scroll;
+	padding: 10px 0px 15px 0px;
+}
+
+/* Divisions */
+.div1 {
+    font-weight: 1000;
+    font-size: 40px;
+    line-height: 5px;
+	text-transform: capitalize;
+	color: rgb(255, 251, 0);
+	font-family: Georgia, sans-serif;
+	text-align: center;
+	position: relative;
+	text-shadow: 0px 0px 20px black;
+	background: linear-gradient(250deg, Blue, Lightblue);
+	padding: 15px;
+	margin: 0px;
+	border-radius: 30px 30px 30px 30px;
+	
+}
+
+.div2 {
+	background-image: url("./img/burj al arab.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: scroll;
+    font-weight: 1000;
+    font-size: 40px;
+	line-height: 0px;
+    margin: 0px;
+	font-family: Times, serif;
+	align-items: center;
+	color: rgb(197, 38, 163);
+	vertical-align: middle;
+	padding: 50px 0px 400px 550px;
+}
+
+.div3{
+	background: linear-gradient(-230deg, lightblue, purple, blue, lightblue, purple, blue);
+	font-family: Impact, sans-serif;
+	color: rgb(255, 255, 255);
+	font-size: 15px;
+	border-radius: 0px 10px 0px 10px;
+	padding: 10px;
+}
+
+.div4{
+	align-items: center;
+	margin: 0px 0px 0px 280px;
+}
+
+.div5{
+	align-items: center;
+}
+
+.div6{
+	background: linear-gradient(45deg, Blue, Lightblue);
+	padding: 10px 10px;
+	margin: none;
+	border-radius: 15px;
+}
+
+.div7{
+	margin: 0px 100px 0px 250px;
+	padding: 0px;
+}
+
+.div8{
+	border: 10px;
+	border-radius: 0px 100px 0px 100px;
+	box-shadow: 0px 0px 10px 5px grey;
+	background: linear-gradient(50deg, Blue, lightblue);
+	padding: 20px;
+	margin: 70px 50px 70px 50px;
+	line-height: 25px;
+
+}
+
+.div9{
+	border: 10px;
+	border-radius: 0px 100px 0px 100px;
+	box-shadow: 0px 0px 10px 5px grey;
+	background: linear-gradient(90deg, lightblue, Blue);
+	padding: 10px;
+	margin: 100px 350px 0px 350px;
+	text-align: center;
+}
+
+.div10{
+	background-image: url("./img/1642701027697.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: none;
+	padding: 50px;
+	font-size: 50px;
+	font-weight: 50;
+	text-transform: capitalize;
+	text-align: center;
+	color: white;
+	text-shadow: 0px 0px 15px lightblue;
+	border: 1px;
+	border-radius: 50px 50px 50px 50px;
+}
+
+.div11{
+	border: 5px;
+	border-radius: 20px 20px;
+	background: linear-gradient(90deg, lightblue, rgb(47, 113, 255));
+	padding: 10px;
+	margin: 0px;
+	line-height: 20px;
+	text-align: justify;
+}
+
+.div12{
+	padding: 0px;
+	margin: 0px 0px 0px 220px
+}
+
+.div13{
+	align-items: center;
+	padding: 10px;
+	margin: 0px;
+	position: relative;
+	text-align: center;
+	background: linear-gradient(45deg, lightblue, rgb(47, 113, 255));
+}
+
+.div14{
+	margin: 0px;
+	padding: 10px;
+	text-align: center;
+	background: linear-gradient(45deg, lightblue, rgb(47, 113, 255));
+	color: crimson;
+}
+/* Division Ending*/
+h3 {
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin: 0 0 15px;
+}
+
+h4 {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0 0 10px;
+}
+
+h5 {
+    font-weight: 400;
+    margin: 0 0 10px;
+    font-size: 14px;
+    color: #777;
+}
+
+h6 {
+    font-weight: 300;
+    margin: 0 0 10px;
+    font-size: 12px;
+}
+
+
+/* Paragraphs */
+p {
+    font-size: 15px;
+	color:rgb(0, 0, 0);
+}
+
+.p1{
+	color: black;
+}
+
+.p2{
+	color: white;
+	text-align: center;
+	text-decoration: none;
+}
+ul{
+	padding: 0px;
+	margin: 0px;
+	list-style-type: none;
+	background: linear-gradient(270deg, lightblue, purple, lightblue, purple);
+	overflow: hidden;
+}
+li{
+	display: inline;
+	float: left;
+	border-right: 1px solid rgb(0, 0, 0);
+	border-left: 1px solid rgb(0, 0, 0);
+}
+
+.span1 a{
+	text-decoration: none;
+	text-transform: capitalize;
+	display: block;
+	padding: 8px;
+	background-color: #ffffff;
+}
+
+li a{
+	display: block;
+	color: rgb(0, 119, 255);
+	text-align: center;
+	padding: 14px 16px;
+}
+
+li a:hover{
+	color: rgb(0, 0, 0);
+	background-color: lightblue;
+	box-shadow: 0px 0px 10px;
+	border-bottom: 2px solid rgb(255, 208, 0);
+	border-left: 2px solid rgb(255, 208, 0);
+	border-right: 2px solid rgb(255, 208, 0);
+}
+
+li a:active{
+	background-color: chartreuse;
+}
+
+.span1 a:hover{
+	color: rgb(0, 0, 0);
+	background-color: lightblue;
+	box-shadow: 0px 0px 10px;
+	border-bottom: 2px solid rgb(255, 208, 0);
+	border-left: 2px solid rgb(255, 208, 0);
+	border-right: 2px solid rgb(255, 208, 0);
+}
+
+.div5 a:hover{
+	color: rgb(0, 0, 0);
+	background-color: lightblue;
+	box-shadow: 0px 0px 10px;
+	border-bottom: 2px solid rgb(255, 208, 0);
+	border-left: 2px solid rgb(255, 208, 0);
+	border-right: 2px solid rgb(255, 208, 0);
+}
+
+.button1{
+	background: linear-gradient(-230deg, lightblue, blue);
+	border-radius: 20px 0px 20px 0px;
+	color: rgb(0, 0, 0);
+	font-family: Tahoma, sans-serif;
+	align-items: center;
+	text-decoration: none;
+	padding: 20px 60px;
+	margin: 20px 800px 50px 200px;
+	box-shadow: 0px 0px 8px rgb(121, 121, 121);
+	position: absolute;
+}
+
+.button2{
+	background: linear-gradient(-230deg, lightblue, blue);
+	border-radius: 20px 0px 20px 0px;
+	color: rgb(0, 0, 0);
+	font-family: Tahoma, sans-serif;
+	align-items: center;
+	text-decoration: none;
+	padding: 20px 60px;
+	margin: 20px 600px 0px 650px;
+	box-shadow: 0px 0px 8px rgb(121, 121, 121);
+	position: absolute;
+
+}
+
+.button3{
+	background: linear-gradient(-230deg, lightblue, blue);
+	border-radius: 20px 0px 20px 0px;
+	color: Blue;
+	font-family: Tahoma, sans-serif;
+	align-items: center;
+	text-decoration: none;
+	padding: 20px 60px;
+	margin: 0px 0px 0px 820px;
+	box-shadow: 0px 0px 8px rgb(121, 121, 121);
+	position: absolute;
+}
+
+.span1{
+	position: sticky;
+}
