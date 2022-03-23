@@ -18,7 +18,7 @@
 	text-align: center;
 	position: relative;
 	text-shadow: 0px 0px 20px black;
-	background: linear-gradient(250deg, Blue, Lightblue);
+	background: linear-gradient(250deg, rgb(47, 113, 255), Lightblue);
 	padding: 15px;
 	margin: 0px;
 	border-radius: 30px 30px 30px 30px;
@@ -34,15 +34,17 @@
     font-size: 40px;
 	line-height: 0px;
     margin: 0px;
-	font-family: Times, serif;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 	align-items: center;
 	color: rgb(197, 38, 163);
 	vertical-align: middle;
 	padding: 50px 0px 400px 550px;
+	border: 0px;
+	border-radius: 30px;
 }
 
 .div3{
-	background: linear-gradient(-230deg, lightblue, purple, blue, lightblue, purple, blue);
+	background: linear-gradient(-230deg, lightblue, purple, rgb(47, 113, 255), lightblue, purple, rgb(47, 113, 255));
 	font-family: Impact, sans-serif;
 	color: rgb(255, 255, 255);
 	font-size: 15px;
@@ -60,7 +62,7 @@
 }
 
 .div6{
-	background: linear-gradient(45deg, Blue, Lightblue);
+	background: linear-gradient(90deg, lightblue,rgb(47, 113, 255));
 	padding: 10px 10px;
 	margin: none;
 	border-radius: 15px;
@@ -75,7 +77,7 @@
 	border: 10px;
 	border-radius: 0px 100px 0px 100px;
 	box-shadow: 0px 0px 10px 5px grey;
-	background: linear-gradient(50deg, Blue, lightblue);
+	background: linear-gradient(50deg, rgb(47, 113, 255), lightblue);
 	padding: 20px;
 	margin: 70px 50px 70px 50px;
 	line-height: 25px;
@@ -86,7 +88,7 @@
 	border: 10px;
 	border-radius: 0px 100px 0px 100px;
 	box-shadow: 0px 0px 10px 5px grey;
-	background: linear-gradient(90deg, lightblue, Blue);
+	background: linear-gradient(90deg, lightblue, rgb(47, 113, 255));
 	padding: 10px;
 	margin: 100px 350px 0px 350px;
 	text-align: center;
@@ -121,7 +123,7 @@
 
 .div12{
 	padding: 0px;
-	margin: 0px 0px 0px 220px
+	margin: 0px 0px 0px 220px;
 }
 
 .div13{
@@ -129,6 +131,7 @@
 	border-radius:20px;
 	align-items: center;
 	padding: 10px;
+	box-shadow: 0px 0px 7px grey;
 	margin: 0px;
 	position: relative;
 	text-align: center;
@@ -142,11 +145,122 @@
 	background: linear-gradient(45deg, lightblue, rgb(47, 113, 255));
 	color: crimson;
 }
+
+.div15{
+	border: 5px;
+	border-radius:20px;
+	padding: 20px 0px 220px 0px;
+	margin: 0px;
+	position: relative;
+	background: linear-gradient(45deg, lightblue, rgb(47, 113, 255));
+}
+
+.div16{
+	text-align: center;
+	color: crimson;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 70px;
+
+}
+
+.div17{
+	padding: 10px;
+	background: linear-gradient(80deg, lightblue, rgb(47, 113, 255));
+	width: 600px;
+	height: 420px;
+	text-align: none;
+	margin-left: 200px;
+	border: 0px;
+	border-radius: 15px 0px 15px 0px;
+	box-shadow: 0px 0px 15px grey;
+}
+
+.div17:hover{
+	background: linear-gradient(80deg, lightblue, rgb(255, 247, 0));
+}
+
+.rp1{
+	line-height: 22px;
+	height: 140px;
+	width: 340px;
+	position: absolute;
+	margin-left: 10px;
+	background: linear-gradient(45deg, white, lightblue);
+	border: 2px;
+	border-radius: 0px 0px 0px 20px;
+}
+
+.rp2{
+	line-height: 25px;
+	height: 140px;
+	width: 330px;
+	position: absolute;
+	margin-left: 350px;
+	background: linear-gradient(45deg,lightblue, white);
+	border: 2px;
+	border-radius: 0px;
+}
+
+.rp3{
+	line-height: 25px;
+	height: 140px;
+	width: 300px;
+	position: absolute;
+	margin-left: 680px;
+	background: linear-gradient(45deg,white, lightblue);
+	border: 2px;
+	border-radius: 0px 0px 20px 0px;
+}
+
+.foo{
+	text-align: center;
+	background-color: whitesmoke;
+	border: 2px;
+	border-radius: 10px;
+	margin: 10px 40px 40px 40px;
+	padding: 20px;
+	box-shadow: 0px 0px 10px;
+}
+
+.foospan{
+	padding: 9px;
+	background-color: lightblue;
+	text-decoration: none;
+	color: green;
+	border: 2px;
+	border-radius: 5px;
+}
+
+.foospan:hover{
+	color: whitesmoke;
+	text-transform: uppercase;
+	background-color: blueviolet;
+}
+
+.foo0{
+	margin-left: 320px;
+}
+.foo1{
+	text-align: center;
+	font-size: 10px;
+
+}
+
+.foo2{
+	width: 400px;
+	text-align: center;
+	margin-left: 300px;
+	position: relative;
+	font-style: italic;
+}
 /* Division Ending*/
+
+/* Headers*/
 h3 {
     font-size: 20px;
     font-weight: 600;
-    text-transform: capitalize;
+    text-transform: none;
     margin: 0 0 15px;
 }
 
@@ -169,6 +283,7 @@ h6 {
     font-size: 12px;
 }
 
+/* Headers Ending*/
 
 /* Paragraphs */
 p {
@@ -186,105 +301,105 @@ p {
 	text-decoration: none;
 }
 ul{
-	padding: 0px;
+	padding: 10px 5px 50px 5px;
 	margin: 0px;
 	list-style-type: none;
-	background: linear-gradient(270deg, lightblue, purple, lightblue, purple);
-	overflow: hidden;
-}
-li{
-	display: inline;
-	float: left;
-	border-right: 1px solid rgb(0, 0, 0);
-	border-left: 1px solid rgb(0, 0, 0);
+	background: linear-gradient(-230deg, lightblue, rgb(47, 113, 255));
 }
 
-.span1 a{
-	text-decoration: none;
-	text-transform: capitalize;
-	display: block;
-	padding: 8px;
-	background-color: #ffffff;
-}
-
-li a{
-	display: block;
+.link1{
+	display:inline-block;
+	padding: 10px;
+	margin-left: 5px;
 	color: rgb(0, 119, 255);
 	text-align: center;
-	padding: 14px 16px;
+	text-decoration: none;
+	background-color: white;
+	border: none;
+	border-radius: 2px;
+	box-shadow: 0px 0px 7px grey;
 }
 
-li a:hover{
-	color: rgb(0, 0, 0);
-	background-color: lightblue;
-	box-shadow: 0px 0px 10px;
-	border-bottom: 2px solid rgb(255, 208, 0);
-	border-left: 2px solid rgb(255, 208, 0);
-	border-right: 2px solid rgb(255, 208, 0);
-}
-
-li a:active{
-	background-color: chartreuse;
-}
-
-.span1 a:hover{
-	color: rgb(0, 0, 0);
-	background-color: lightblue;
-	box-shadow: 0px 0px 10px;
-	border-bottom: 2px solid rgb(255, 208, 0);
-	border-left: 2px solid rgb(255, 208, 0);
-	border-right: 2px solid rgb(255, 208, 0);
-}
-
-.div5 a:hover{
-	color: rgb(0, 0, 0);
-	background-color: lightblue;
-	box-shadow: 0px 0px 10px;
-	border-bottom: 2px solid rgb(255, 208, 0);
-	border-left: 2px solid rgb(255, 208, 0);
-	border-right: 2px solid rgb(255, 208, 0);
+.link1 :hover{
+	color: limegreen;
+	text-transform: uppercase;
 }
 
 .button1{
-	background: linear-gradient(-230deg, lightblue, blue);
+	background: linear-gradient(-230deg, lightblue, rgb(47, 113, 255));
 	border-radius: 20px 0px 20px 0px;
-	color: rgb(0, 0, 0);
+	color: black;
 	font-family: Tahoma, sans-serif;
 	align-items: center;
 	text-decoration: none;
 	padding: 20px 60px;
 	margin: 20px 800px 50px 200px;
-	box-shadow: 0px 0px 8px rgb(121, 121, 121);
 	position: absolute;
 }
 
 .button2{
-	background: linear-gradient(-230deg, lightblue, blue);
+	background: linear-gradient(-230deg, lightblue, rgb(47, 113, 255));
 	border-radius: 20px 0px 20px 0px;
-	color: rgb(0, 0, 0);
+	color: black;
 	font-family: Tahoma, sans-serif;
 	align-items: center;
 	text-decoration: none;
 	padding: 20px 60px;
 	margin: 20px 600px 0px 650px;
-	box-shadow: 0px 0px 8px rgb(121, 121, 121);
 	position: absolute;
 
 }
 
 .button3{
-	background: linear-gradient(-230deg, lightblue, blue);
+	background: linear-gradient(-230deg, lightblue, rgb(47, 113, 255));
 	border-radius: 20px 0px 20px 0px;
-	color: Blue;
+	color: rgb(47, 113, 255);
 	font-family: Tahoma, sans-serif;
 	align-items: center;
 	text-decoration: none;
+	margin: 150px 0px 0px 800px;
 	padding: 20px 60px;
-	margin: 0px 0px 0px 820px;
 	box-shadow: 0px 0px 8px rgb(121, 121, 121);
 	position: absolute;
 }
 
-.span1{
-	position: sticky;
+.div5 :hover{
+	color: rgb(255, 225, 0);
+	background: linear-gradient(45deg, lightblue, purple);
+	box-shadow: 0px 0px 15px grey;
+}
+
+#input-box{
+	height: 30px;
+	width: 400px;
+	border: 0px;
+	border-radius: 5px;
+	box-shadow: 0px 0px 5px grey;
+	margin: 0px;
+	padding: 5px;
+	background: linear-gradient(70deg, lightblue, white);
+
+}
+
+#input-box:hover{
+	box-shadow: 0px 0px 15px grey;
+	background: linear-gradient(70deg, whitesmoke, lightblue);
+
+}
+
+#input-submit{
+	height: 50px;
+	width: 400px;
+	border: 0px;
+	border-radius: 5px;
+	box-shadow: 0px 0px 4px grey;
+	padding: 8px;
+	background: linear-gradient(80deg, lightblue, blueviolet);
+	align-items: center;
+	margin-left: 115px;
+}
+
+#input-submit:hover{
+	box-shadow: 0px 0px 10px grey;
+	background: linear-gradient(80deg, white, rgb(47, 113, 255));
 }
