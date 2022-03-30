@@ -369,7 +369,7 @@ ul{
 	box-shadow: 0px 0px 15px grey;
 }
 
-#input-box{
+.input-box{
 	height: 30px;
 	width: 400px;
 	border: 0px;
@@ -381,13 +381,13 @@ ul{
 
 }
 
-#input-box:hover{
+.input-box:hover{
 	box-shadow: 0px 0px 15px grey;
 	background: linear-gradient(70deg, whitesmoke, lightblue);
 
 }
 
-#input-submit{
+.input-submit{
 	height: 50px;
 	width: 400px;
 	border: 0px;
@@ -399,7 +399,7 @@ ul{
 	margin-left: 115px;
 }
 
-#input-submit:hover{
+.input-submit:hover{
 	box-shadow: 0px 0px 10px grey;
 	background: linear-gradient(80deg, white, rgb(47, 113, 255));
 }
