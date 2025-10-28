@@ -14,7 +14,7 @@
 <body>
   <header>
     <nav aria-label="Main navigation">
-      <a href="index.html"><img src="https://via.placeholder.com/80x80?text=Renteasy" alt="Renteasy Logo" width="80"></a>
+      <a href="index.html"><img src="./img/Renteasy logo.png" alt="Renteasy Logo" width="60"></a>
       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="Rent.html">Rentals</a></li>
@@ -31,7 +31,7 @@
 
   <main>
     <section class="slider" aria-label="Hero carousel"></section>
-    <div class="hero-overlay" style="position: absolute; top: 40%; left: 50%; transform: translate(-50%, -50%);">
+    <div class="hero-overlay" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
       <h1>Renteasy: Your Gateway to Effortless Properties</h1>
       <p>Rent, Buy, Sell—With Expert Guidance, Zero Hassle.</p><br>
       <a href="Rent.html" class="cta-btn" style="background: var(--primary-blue); margin-right: 1rem;">Browse Rentals</a>
@@ -81,6 +81,26 @@
       <p>Founded by Yusuf Israel Timileyin, tech-savvy visionary with a First-Class BSc in Computer Science from AFIT. Innovation meets real estate.</p>
       <a href="about.html">Full Story</a>
     </section>
+
+    <section style="text-align: center;">
+      <h1>Connect with Renteasy—One Message Away</h1>
+      <p>Response in 24hrs. Whether valuing your asset or scouting dreams, we're here. +234 819 045 3867 | senthor100@gmail.com</p>
+    </section>
+
+    <section style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; padding: 2rem;">
+      <form onsubmit="return false;">
+        <input type="text" placeholder="Name" required>
+        <input type="email" placeholder="Email" required>
+        <select id="inquiryType" required><option value="">Inquiry Type</option><option value="rental">Rental</option><option value="buy">Buy</option><option value="sell">Sell</option></select>
+        <textarea placeholder="Message" required></textarea>
+        <button type="submit" onclick="validateForm(this.closest('form'))">Send Message</button>
+      </form>
+      <div>
+        <h3>Contact Icons</h3>
+        <div class="social"><!-- Same as footer --></div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.309!2d3.3832!3d6.5244!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNsKwMzEnMzEuMCJOIDPCsOzMnNTIuMiJF!5e0!3m2!1sen!2sng!4v1630000000000" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+    </section>
   </main>
 
   <footer>
@@ -91,7 +111,7 @@
       <a href="#">Leasing</a>
     </div>
     <div>
-      <img src="https://via.placeholder.com/100x50?text=Logo" alt="Renteasy Logo" width="100">
+      <img src="./img/Logo.png" alt="Renteasy Logo" width="200">
       <p>Proudly registered under Nigeria's CAC—your secure partner. [RC/1234567]</p>
     </div>
     <div>

@@ -87,7 +87,7 @@ function validateForm(form) {
   if (!email.includes('@')) { alert('Please enter a valid email.'); return false; }
   if (!/^\+?\d{10,15}$/.test(phone.replace(/\s/g, ''))) { alert('Please enter a valid phone (e.g., +2348190453867).'); return false; }
   // For production: Integrate Formspree or mailto:
-  // window.location.href = `mailto:senthor100@gmail.com?subject=Property Inquiry&body=${form.message.value}`;
+  window.location.href = `mailto:senthor100@gmail.com?subject=Property Inquiry&body=${form.message.value}`;
   alert('Thank you! We\'ll respond within 24 hours.'); // Placeholder
   form.reset();
   return false; // Prevent default submit
