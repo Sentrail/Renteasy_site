@@ -1,46 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="keywords" content="Real Estate, Housing, Rent, Buy, Sell, Renting, Rentage, Buying, Selling, Owner, Ownership, Rental, Tenant" >
-    <meta name="Author" content="Mr. Yusuf Israel Timileyin">
-    <meta name="Description" content="Renteasy Business Services is a registered corporate body in Nigeria, under the Corporate Affairs Commission (CAC) with the registration number RC********, that deals in different services ranging from Real Estate, Buying and Selling, to Renting, Leasing etc. We as a body engage with our customers without the need to see them in person and we've received various commendations from different Clients we've rendered services to as per our impression on them. We hope to satisfy you as you come to us for any service in our brochure. RentEasy.....Renting Made Easier">
-    <title>Renteasy | Buy</title>
-    <link rel="stylesheet" href="./styles1.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Renteasy | Buy & Sell Properties</title>
+  <meta name="description" content="Prime Abuja property buying and Lagos selling with Renteasy—maximize value, minimize stress.">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header>
-    <div class="div1">
-      <span><img style="float: left;" src="./img/Renteasy logo - Copy.png" alt="Renteasy's Logo" width="100px"></span>
-      <span><img style="float: right;" src="./img/Renteasy logo.png" alt="Renteasy's Logo" width="100px"></span>
-      <h1>RENTEASY</h1>
-    </div>
-    <hr color="purple" size="5px">
-    <div class="nav1">
-      <nav>
-        <ul>
-          <li class="link1" style="float: left;"><a style="text-decoration: none;" href="index.html">Home</a></li>
-          <li class="link1" style="float: right;"><a style="text-decoration: none;" href="./about.html" target="_blank">About</a></li>
-          <li class="link1" style="float: right;"><a style="text-decoration: none;" href="./contact.html" target="_blank">Contact</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
-  <br/><br><br><br>
+  <header><!-- Same as Rent.html --></header>
 
-  <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+  <main style="padding-top: 80px;">
+    <section style="padding: 2rem; text-align: center;">
+      <h1>Buy or Sell: Prime Properties Ready</h1>
+      <p>Buying: Ownership dreams unlocked. Selling: 30% faster closes with expert staging.</p>
+      <div style="display: flex; justify-content: center; gap: 1rem; margin: 1rem 0;">
+        <button class="tab-btn cta-btn active" data-type="Buy">Buying</button>
+        <button class="tab-btn cta-btn" data-type="Sell">Selling</button>
+      </div>
+      <!-- Search form same as Rent.html, but id="typeFilter" options: Buy/Sell -->
+    </section>
 
+    <section class="property-grid" aria-label="Buy/Sell Listings"></section>
 
-  <footer>
-    <div class="div6">
-      <div class="foo"><span><a class="foospan" href="./Apartments.html" target="_blank">Apartments/Houses</a></span>&nbsp;<span><a class="foospan" href="Space.html" target="_blank">Space Rental</a></span>&nbsp;<span><a class="foospan" href="Estate.html" target="_blank">Real Estate</a></span>&nbsp;<span><a class="foospan" href="warehouse.html" target="_blank">Warehouse(s)</a></span>&nbsp;<span><a class="foospan" href="lease.html" target="_blank">Leasing</a></span>&nbsp;<span><a class="foospan" href="shop.html" target="_blank">Shop(s)</a></span>&nbsp;<span><a class="foospan" href="hall.html" target="_blank">Hall(s)</a></span></div>
-      <div class="foo0"><img src="./img/Logo.png" alt="Company's Logo" width="50%" href="index.html" target="_blank" /><br/></div>
-      <div class="foo1"><b>Copyright 2021-2022. © RENTEASY BUSINESS SERVICE MANAGEMENT</b></div><br/>
-      <div class="foo2"><b>It is the policy of this community to comply with all applicable fair housing laws including those which prohibit discrimination against any person based on race, sex, religion, color, familial status, national origin or handicap.</b></div>
-    </div>
-  </footer>
+    <section style="padding: 2rem; text-align: center;">
+      <h2>Financing Options Available</h2>
+      <p>Partnered lenders for seamless transitions.</p>
+      <form><!-- Sell form with photo upload placeholder: <input type="file" accept="image/*"> --></form>
+    </section>
+  </main>
+
+  <footer><!-- Same --></footer>
+
+  <script src="script.js"></script>
+  <script>document.addEventListener('DOMContentLoaded', () => { filterProperties('', '', 'Buy'); });</script>
 </body>
 </html>
